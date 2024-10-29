@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>BV-BRC Team | BV-BRC</title>
+		<%- include('../header') %>
+	</head>
+	<body class="claro patric <% if (request.isAuthenticated && request.isAuthenticated()) { %>Authenticated<% } %>">
+		<div id="ApplicationContainer" data-dojo-type="dijit/layout/BorderContainer" class="layoutContainer" data-dojo-props="id:'ApplicationContainer',gutters:false,liveSplitters:false">
+			<%- include('../bv-brc-header') %>
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'" style="padding:0px;border:0px solid #ddd;background:inherit;">
+                <div id="bv-brc-page">
+                    <div id="bv-brc-page-container">
+                        <div class="page-content">
+                          <h1 id="bv-brc-team">MAAGE Advisory Board</h1>
+                          <div class="teams" style="grid-template-columns: 1fr 1fr">
+                            <div>
+                                <h2 id="clinical">Clinical Advisory Board</h2>
+                                <div class="adv-board-member">
+                                    <p><b>Ashley Ceniceros</b>
+                                        <br>Infectious diseases, wound care, and outpatient internal medicine physician, Clinical Assistant Professor, Carle Foundation Hospital
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Marielle Fricchione</b>
+                                        <br>Associate Professor of Pediatrics, Pediatric Infectious Diseases Attending, Rush University Medical Center
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Rajinder Grewal</b>
+                                        <br>Medical Director, Centene Corporation
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Mary Hayden</b>
+                                        <br>Director, Division of Infectious Diseases; Director, Clinical Microbiology Lab, Rush University Medical Center
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Hend Jadalla</b>
+                                        <br>Graduate Assistant at the Center for Rural Health and Social Services Development, Southern Illinois University School of Medicine
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Harish Kempegowda</b>
+                                        <br>Attending Physician, Orthopaedic and Spine Surgery, Horizon Health
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Larry Kociolik</b>
+                                        <br>Associate Professor of Pediatrics, Vice President, System Preparedness, Prevention, and Response, Attending Physician, Division of Infectious Diseases, Northwestern University Feinberg School of Medicine, Center for System Preparedness, Prevention, and Response
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Anum Niazi</b>
+                                        <br>Hospitalist, National Hospital Medical Lead Advocacy Coordinator, Vituity
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Lorna O'Young</b>
+                                        <br>Owner/Solo practitioner of Ob/Gyn practice; retired, Woman to Woman, P.C.
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Egon Ozer</b>
+                                        <br>Assistant Professor of Medicine, Infectious Diseases and Director, Center for Pathogen Genomics and Microbial Evolution, Northwestern University Feinberg School of Medicine
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Sarah Sansom</b>
+                                        <br>Assistant Professor, Division of Infectious Diseases, Rush University Medical Center
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Jitendra Kumar Sodvadiya</b>
+                                        <br>Horizon Health
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Jayme Walker</b>
+                                        <br>Hospitalist Practitioner, Rush Copley
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <h2 id="pubhealth">Public Health Advisory Board</h2>
+                                <div class="adv-board-member">
+                                    <p><b>Chloe Cavida</b>
+                                        <br>Epidemiologist, McHenry County Department of Health
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Robert Davies</b>
+                                        <br>Director of Planning and Research, Champaign-Urbana Public Health District
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Prince Danso-Odei</b>
+                                        <br>Administrator and Health Officer, Vermilion County Health Department
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Lauren Eckberg</b>
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Katy Endress</b>
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Brenda Fedak</b>
+                                        <br>Organizational Communications Manager/PIO/HR, Health Department St. Clair County
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Sarah Franks</b>
+                                        <br>RN Communicable Disease Surveillance Specialist High Risk Populations, Evanston Health and Human Services
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Megan Hanley</b>
+                                        <br>Epidemiologist, Tazewell County Health Department
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Heidi Heerdt</b>
+                                        <br>Registered Nurse, Bureau County Health Department
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Monica Hendrickson</b>
+                                        <br>
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Chris Hoff</b>
+                                        <br>Deputy Director, Public Health, DuPage County Health Department
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Christine Pate</b>
+                                        <br>Hektoen Institute of Medicine (IDPH), Hektoen Institute of Medicine (IDPH)
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Julie Pryde</b>
+                                        <br>Administrator, Champaign-Urbana Public Health District
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Tracy Terlinde</b>
+                                        <br>Peoria City/County Health Department, Peoria City/County Health Department
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Yvonne Overton</b>
+                                        <br>Infection Coordinator, IDPH
+                                    </p>
+                                </div>
+                                <div class="adv-board-member">
+                                    <p><b>Chae Li Yong</b>
+                                        <br>Epidemiology, Madison County Health Department
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <%- include('../bv-brc-footer') %>
+                <style>
+                    body.patric {
+                        min-width: 830px;
+                    }
+                </style>
+            </div>
+        </div>
+
+		<%- include('../javascript') %>
+	</body>
+</html>
