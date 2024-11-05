@@ -1,0 +1,278 @@
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+div.P3Header {
+  height: 40px;
+}
+
+#bv-brc-home {
+  background-color: #faf9f6;
+}
+
+div.bv-brc-info {
+  background-color: #f5f9f9;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #f34f52;
+}
+
+div.bv-brc-mid-content {
+  background-color: #f5f9f9;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #f34f52;
+}
+
+#bv-brc-header-container {
+  background-color: #6eb0a7;
+  height: 36px;
+
+  font-size: 15px;
+
+  font-family: Roboto Slab;
+
+  line-height: 14px;
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  text-align: left;
+}
+
+#bv-brc-home .bv-brc-mid {
+  border-bottom: 4px solid #6eb0a7;
+}
+
+div.mid-content-bottom,
+div.mid-content-buttons {
+  border-radius: 200px;
+}
+
+div.linkedin-feed {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1a5272;
+}
+
+#bv-brc-footer {
+  background: #2c2c2c;
+  margin-top: 43px;
+}
+
+td.gs-input {
+  border-color: #9900ff;
+}
+
+div div h1 {
+  font-family: Roboto Slab;
+
+  font-size: 34px;
+
+  text-transform: capitalize;
+
+  text-align: left;
+
+  color: #3c3c3c;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div div p {
+  font-size: 16px;
+
+  font-family: Maven Pro;
+
+  text-transform: capitalize;
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  border-style: none;
+  line-height: 19px;
+  color: #434849;
+}
+
+div.mid-content-bottom {
+  background-color: #f5f9f9;
+
+  border-style: none;
+  margin-top: -100px;
+}
+
+a.btn.btn-blue.navigationLinkOut {
+  background-color: #236f9c;
+  #bv-brc-home {
+    background-color: #236f9c;
+  }
+  div.bv-brc-info {
+    background-color: #236f9c;
+    border-style: solid;
+    border-color: #9900ff;
+  }
+  div.bv-brc-mid-content {
+    background-color: #236f9c;
+  }
+  #bv-brc-header-container {
+    background-color: #236f9c;
+    font-size: 13px;
+    font-family: Droid Sans;
+    line-height: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+  }
+  #bv-brc-footer {
+    background-color: #236f9c;
+  }
+  table.GStable {
+    border-style: solid;
+    border-color: #9900ff;
+  }
+  td.gs-input {
+    border-color: #9900ff;
+  }
+  div div h1 {
+    font-family: Droid Sans;
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: left;
+    color: f4f4f4;
+  }
+  div div p {
+    font-size: 16px;
+    font-family: Lato;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-style: normal;
+  }
+  div.mid-content-bottom {
+    background-color: #236f9c;
+  }
+  a.btn.btn-blue.navigationLinkOut {
+    background-color: #236f9c;
+  }
+  div.bv-brc-mid {
+    background-color: #236f9c;
+
+    border-style: none;
+  }
+
+  color: f4f4f4;
+
+  border-color: #9900ff;
+}
+
+div div h2 {
+  font-family: Roboto Slab;
+  font-size: 20px;
+  color: #3c3c3c;
+  font-weight: 500;
+  font-style: normal;
+}
+
+div.bv-brc-mid-content-links {
+  padding-bottom: 100px;
+}
+
+a.navigationLinkOut {
+  color: #3a6963;
+  font-family: Poppins;
+}
+
+div p a {
+  color: #3a6963;
+  text-decoration: underline;
+}
+
+div.search {
+  display: none;
+}
+
+div div h3 {
+  font-family: Roboto Slab;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: f4f4f4;
+}
+
+a.navigationLink {
+  color: #3a6963;
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+div div a {
+  color: #3a6963;
+  font-family: Poppins;
+}
+
+#bv-brc-home-container {
+  background-color: #fffcfa;
+}
+
+div.dijitContentPane.dijitBorderContainerNoGutter-child.dijitBorderContainerNoGutter-dijitContentPane.dijitBorderContainerNoGutterPane.dijitAlignCenter {
+  background-color: #fefefa;
+}
+
+span.icon-twitter-square.fa-3x {
+  color: f4f4f4;
+}
+
+span.icon-facebook-square.fa-3x {
+  color: #faf9f6;
+}
+
+p.feed-description {
+  color: #3c3c3c;
+}
+
+h4.feed-title {
+  color: #48847c;
+}
+
+li p a {
+  color: #48847c;
+}
+
+div.announcements {
+  border-style: solid;
+  border-color: #1a5272;
+  border-radius: 20px;
+  background-color: #2f2f2;
+}
+
+div.dot-navigation {
+  display: none;
+}
+
+span span span {
+  color: #f5f9f9;
+  font-size: 14px;
+  padding-left: -px;
+  line-height: 10px;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+a span i {
+  color: #f5f9f9;
+  font-family: Roboto Slab;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: lowercase;
+}
+
+div.mid-content-buttons {
+  background-color: #f5f9f9;
+}
